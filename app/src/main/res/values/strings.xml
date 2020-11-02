@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">YelpTestApp</string>
+    <string name="search_via_yelp">Search via Yelp</string>
+    <string name="distance">%1$d meters</string>
 </resources>

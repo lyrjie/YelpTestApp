@@ -1,0 +1,16 @@
+query BusinessSearch($latitude:Float!, $longitude:Float!) {
+  search(latitude: $latitude, longitude: $longitude, limit: 50) {
+    total
+    business {
+      name
+      url
+      review_count
+      rating
+      photos
+      coordinates {
+        latitude
+        longitude
+      }
+    }
+  }
+}
